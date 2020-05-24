@@ -148,12 +148,14 @@ def main():
                     message, game_state = kill_player(dead_entity)
                 else:
                     message = kill_monster(dead_entity)
-
                 message_log.add_message(message)
             if item_added:
                 entities.remove(item_added)
 
                 game_state = GameStates.ENEMY_TURN
+
+
+                
         if game_state == GameStates.ENEMY_TURN:
             for entity in entities:
                 if entity.ai:
