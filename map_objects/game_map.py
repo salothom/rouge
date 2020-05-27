@@ -1,15 +1,11 @@
 import libtcodpy as libtcod
 from random import randint
-
 from components.ai import BasicMonster
 from components.fighter import Fighter
 from components.item import Item
-
 from entity import Entity
-
 from map_objects.rectangle import Rect
 from map_objects.tile import Tile
-
 from render_functions import RenderOrder
 
 

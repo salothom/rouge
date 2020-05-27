@@ -155,7 +155,7 @@ def main():
                 game_state = GameStates.ENEMY_TURN
 
 
-                
+
         if game_state == GameStates.ENEMY_TURN:
             for entity in entities:
                 if entity.ai:

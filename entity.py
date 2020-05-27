@@ -1,7 +1,5 @@
 import libtcodpy as libtcod
-
 import math
-
 from render_functions import RenderOrder
 
 
